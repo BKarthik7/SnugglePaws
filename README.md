@@ -1,9 +1,6 @@
 # SnugglePaws
 
-<video controls width="720">
-  <source src="attached_assets/snugglepaws.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/15a29e14-57f7-4a41-a5e6-87ed5da3d58e
 
 SnugglePaws is a marketplace application connecting pet seekers, providers (breeders/sellers), and shelters. The project contains a TypeScript + React frontend (Vite) and an Express-based backend with demo in-memory storage and Stripe integration for payments.
 
@@ -73,18 +70,6 @@ npm run start:frontend
 ## Payments
 - Stripe is integrated in `server/routes.ts`. The server checks `STRIPE_SECRET_KEY` on startup. Use Stripe test keys for local testing.
 
-## How to Add the Video
-Place your `snugglepaws.mp4` file into `attached_assets/` (the project root already has an `attached_assets/` folder). The README includes a video placeholder just below the title; after you upload `attached_assets/snugglepaws.mp4` I can update the README to embed it or add a playable link.
-
-Example embed you can add later (Markdown):
-
-```md
-<video controls width="720">
-  <source src="attached_assets/snugglepaws.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-```
-
 ## Tests & Type Checking
 - `npm run check` — runs TypeScript type checks (`tsc`).
 
@@ -96,9 +81,3 @@ Example embed you can add later (Markdown):
 - If you want persistent storage, connect a Postgres (or other) DB and implement a storage adapter (replace `MemStorage`) and run `drizzle-kit` migrations.
 - Add CI, tests, and end-to-end flows for purchase and messaging.
 - Harden authentication (hash passwords instead of plain-text used in the demo seed).
-
-## License
-MIT
-
----
-If you want, I can now embed your uploaded video and/or add a short README screenshot or demo GIF. Tell me which format you prefer and I will update the file.
